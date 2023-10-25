@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.amazonaws.lambda.mihai.tagpicture.handlers"},{"l":"com.amazonaws.lambda.mihai.tagpicture.model"},{"l":"com.amazonaws.lambda.mihai.tagpicture.service"}];updateSearchResults();

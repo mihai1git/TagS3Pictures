@@ -1,0 +1,147 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.amazonaws.lambda.mihai</groupId>
+  <artifactId>tagpicture</artifactId>
+  <version>3.1</version>
+  <packaging>jar</packaging>
+  <properties>
+      <maven.compiler.source>11</maven.compiler.source>
+      <maven.compiler.target>11</maven.compiler.target>
+      <log4j.version>2.20.0</log4j.version>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <build>
+  <pluginManagement>
+    <plugins>
+    
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.0</version>
+        <configuration>
+          <source>${maven.compiler.source}</source>
+          <target>${maven.compiler.target}</target>
+          <encoding>${project.build.sourceEncoding}</encoding>
+          <forceJavacCompilerUse>true</forceJavacCompilerUse>
+          
+        </configuration>
+      </plugin>
+    
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-shade-plugin</artifactId>
+            <version>3.2.4</version>
+            <executions>
+                <execution>
+                    <phase>package</phase>
+                    <goals>
+                        <goal>shade</goal>
+                    </goals>
+                    <configuration>
+                        <transformers>
+                            <transformer
+                                    implementation="com.github.edwgiz.maven_shade_plugin.log4j2_cache_transformer.PluginsCacheFileTransformer">
+                            </transformer>
+                        </transformers>
+                    </configuration>
+                </execution>
+            </executions>
+            <dependencies>
+                <dependency>
+                    <groupId>com.github.edwgiz</groupId>
+                    <artifactId>maven-shade-plugin.log4j2-cachefile-transformer</artifactId>
+                    <version>2.15</version>
+                </dependency>
+            </dependencies>
+        </plugin>
+
+    </plugins>
+    </pluginManagement>
+  </build>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.amazonaws</groupId>
+        <artifactId>aws-java-sdk-bom</artifactId>
+        <version>1.12.512</version> <!-- 	Jul, 2023 -->
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
+      <scope>test</scope>
+    </dependency>
+	    <!-- https://mvnrepository.com/artifact/org.mockito/mockito-core -->
+	<dependency>
+	    <groupId>org.mockito</groupId>
+	    <artifactId>mockito-core</artifactId>
+	    <version>5.6.0</version>
+	    <scope>test</scope>
+	</dependency>
+
+
+<dependency>
+      <groupId>com.amazonaws</groupId>
+      <artifactId>aws-java-sdk-s3</artifactId>
+    </dependency>
+
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-core -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-lambda-java-core</artifactId>
+	    <version>1.2.2</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-events -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-lambda-java-events</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+
+
+     	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-dynamodb -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-java-sdk-dynamodb</artifactId>
+	    <version>1.12.512</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/software.amazon.awssdk/dynamodb-enhanced -->
+	<dependency>
+	    <groupId>software.amazon.awssdk</groupId>
+	    <artifactId>dynamodb-enhanced</artifactId>
+	    <version>2.20.109</version>
+	</dependency>
+	
+			<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-serialization -->
+	<dependency>
+	    <groupId>com.amazonaws</groupId>
+	    <artifactId>aws-lambda-java-serialization</artifactId>
+	    <version>1.1.2</version>
+	</dependency>  
+	
+ 	<dependency>
+    	<groupId>com.amazonaws.lambda.mihai</groupId>
+		<artifactId>tagscommons</artifactId>
+		<version>1.2</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+	<dependency>
+	    <groupId>org.apache.logging.log4j</groupId>
+	    <artifactId>log4j-core</artifactId>
+	    <version>2.20.0</version>
+	</dependency>
+
+  </dependencies>
+</project>

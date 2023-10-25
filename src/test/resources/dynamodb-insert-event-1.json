@@ -1,0 +1,26 @@
+{
+  "Records": [
+    {
+      "eventID": "c4ca4238a0b923820dcc509a6f75849b",
+      "eventName": "INSERT",
+      "eventVersion": "1.1",
+      "eventSource": "aws:dynamodb",
+      "awsRegion": "us-east-2",
+      "dynamodb": {
+        "Keys": {
+          "PictureS3BucketKeyPK": {
+            "S": "pics-repository#pics#biserici#Bucuresti#BCasin#654321.jpg"
+          },
+          "TagsTool": {
+            "S": "aws_rekognition_worker_labels_with_params"
+          }
+        },
+        "ApproximateCreationDateTime": "Sat Jun 24 08:25:55 UTC 2023",
+        "SequenceNumber": "4421584500000000017450439091",
+        "SizeBytes": 26,
+        "StreamViewType": "KEYS_ONLY"
+      },
+      "eventSourceARN": "arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491"
+    }
+  ]
+}

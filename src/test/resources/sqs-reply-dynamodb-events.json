@@ -1,0 +1,174 @@
+{
+    "Records": [
+        {
+            "messageId": "6bdc37ed-e9ca-4886-b28d-4884e6619b19",
+            "receiptHandle": "AQEBpg8A5Z4icUeoHSGuT6cjgjHS6p3QHPkK+tqZkqs5tIr8trZfwG2jbl7J0sx/UkWaUx0N+hJ9p7TC+yefzEblif0h55WQkIGI0X1duz2Io4DfTCz1g3boUO9OtX3rh516qaDcj9WCULA+cCN0YmTc3B3Aqe4Y8DAZl+WZfr5bomNa3Ax88TxV158AgJbYXFKeTADTxb+wGkonvAYGMpWXgvjENOt+K9f/PPK3pfajGZMiRPJG0l097kjyrdRdWGZ2ZxLdRVGZYWnoq/UGPm+aypa6jKUuEVquv6z+3MnJOMieKVtzTAmf9RogdRXQ0hAB6ciK2NBM5Ozi0wXGyWJMsE7sVjFZF84MRXLwXmvq+k6Kn+P274H8rqH7tVTVSUEFXX2dfFcp9ABqC350JCATdwy+e4G7tq66HxdT9N44hoI=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BIzvorulNou#20200127_110659.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707444",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "19176be380825b95cb502cd978fc3d66",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "a0e262c6-1a2b-46e4-92da-151fe6eb3f9a",
+            "receiptHandle": "AQEBWz+y+u1vhifIoUGWn4SNgQQg+q3VhFTa4/+rakX/RYTE33y6X6TMn4ivES49ulvpCl4w+0Dqc3qGLlYhnY5GCEUywYvlk2eWCj3EHfc95B+HaUe2mq9LsWfnIw8Z9TtVJhQLNeBs/xNf42uFpR6sAqZlEvu4WPeKOkz2a9S2sZr+lbtYroFp2MMY4ix2i5V6kZP67Wf9A1GPBg7MAy18LKU0pjG0nwIHffU1Cv9FGcfwLLtTo8BFjsXmsCoPnXv3cLTssMbtzL8jDoRg0lhXy9J2qchWdL6VGkUkkP4Gj0NpOcpsewHFV0LTSx9JzeNy2x+GSUkARXinN8lNxJhC4Ceq4kcQdC39gd8/Rd2xIjJPHpvfvCREoZrYg+AgIAGr/K1Mpa2mW9FWgzGbAaMAZN2tHA/ECmIZe3NdpANGKZY=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfantulIoanMosiObor#20190521_120128.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707843",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "8b900bb4eabdc99aecd633660d2b5e86",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "aa2f6af3-2204-4af2-a022-d5c70ca4e7bf",
+            "receiptHandle": "AQEB2zrDUJU9FenZFkBsSZPLI8WgJASZec2HTlxzezeWqR5mI/B4ApYPmQLNdVhpQHDnA1JHCyN4l3zFGPIk+gYuflo0kKnOV1yNJNNNBsSc4UiAlo8bK+XsGo1NGe+wj+oc/GjnxZ20YT2lJPvXItHVyc3jMsGM4Jewv9eKpQvD5tp9bX38WS3u7zKbfb30IPRz+jT0qzn+Q1bODSNGCloYOVcVzCcpIIBh0EeVDCf4G7biiHkqSCXCF89su27B82q5L2uNSgdMlxmvY2mEzHcBrGI7kMvl2MwEoQ0fSe6Tn5GZoTWndD++x37b1M+AaQu7gWQQPBhYdzAdZZmWy9PbiOZcKguSrstVhm7Je4MbaYzl0dDrT+4I1EBPKlfgdtw+3EtA0D+Pf3SlUwn1ZXr8gssYTUY5DFi/P/irEyImoFE=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BIzvorulNou#20200127_110756.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707446",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "ec25c3b9baa442a8633ea21bee7c0fc8",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "a8d67dba-8809-40ac-92b0-070d8077e8e0",
+            "receiptHandle": "AQEByx31sSMFdMW09WEqyZAsMBsDWDGU4FKtSr4eFV2Zprtfa7OG6qsGdJuG5xRnqvWw4mrmRPSBD7h1BfI8yADPOuKRdms/MwZH1HYZPkpOX2zeoX1jqV/wfd8K78QGdpmvNxhjfwJjUpQTxdrfCSPLEOoAqJC6RYnVEysBjZ6rKeKvkEHxdDvNwlFFx6ZBTQsirP9A4lkNW94MP635EjF39dGoivwMeZLfPayAgktcAHy82YY8w31UtogQFULlkSJ3qxIL+Oq03+egL1R02I+8C/lloUIvQ901Uqu+xgLO/aKAxs1zICoDlTkqHYvrff3LdaY9KEIH51vNxMms60YRXaTBYtY4qzLrbvxGzakyujr0JESona3Sqb9K3yAn5sG5w2iA1U9OwqMxDjgUFJ2OZzQ7bZzmjbtrMsZjjvNAqmA=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfCalinicCasa#20210430_181921.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707503",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "e1714d7092054220bd5896edb961de28",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "f10b17b9-6326-4489-aaac-d2e40a99b7b0",
+            "receiptHandle": "AQEBaR58w7xS2xZ6UF9P20oKQItTC0ZCouu/70cjDSCprFIypZoTgj1A3246aw2ImuHig16t3+Mdcwwt9NGq4NXB7UByJ9FA3ytCWZT2q2HbSki9UxiU8oz+ZVbqdtLau+E9jiKJkpIBLowVfF5/NE1rFLkiyPD+vcvcKQaacdSDCf2UNapd11+ujzzut+S/M6FMuvKwQM80o3mrAbn8tQ6QtFrPd61WhT5Eop/Ib+MRs9lMDlHddpseBOilXoeGRdr9cHeyBLGqnAfNZCmjWDdfjaMxZAl3wzSST7MZGRbxxwESum87jI7F13gD3KvHGL773bzBFIwknbG6KHyTWoQoxKAgXmkZaxNpt9GKUjsCiq3/n2Dpl7kDC631fFb6jb7u4CDu76qDB4clv6OqBHDG1NNelfibWTykHkQECkgwIUM=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfCalinicCasa#20210430_182137.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707505",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "54e2329ad73580f1e9a81551ed5f77f2",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "fee63dc9-d898-4747-86e9-d6d617b64440",
+            "receiptHandle": "AQEB9gJ/uhlCgghLGcfA2YWuFNnilvowPux1mOBfRYIP7WYGn5HEPhd/a47nq2h7XPQ+0FRDYvc8gclYs5OllgWUu0SSnkPYa+mSv5e10leYT5A4K3Oes7o2+x+bdnXV8jgCLl0FkrMl5Ke5CjEIcwFEUaj6QMqUELkx9OEUaC9MuoH8UGpqIwsX+/XKtN9kNMCCNolAkiu97fA4VkKHqugSo+X/nqdEeqFi8sgojSJa2U3hmwNtnm4iGut8z1FBitDTnkd+y1R/2bBr4W5GOBRpBddPBOrTmFiXpZB8wqPu32u5a5ddXZYjGBDWt+TOx1J81dJKY+rEo74jic5dQNKIo/Jq2UDhx4rvAS0vrr0TsVRD3+uL2cqCGlLjQ88aKtQ3/7yYhNGNNjJ7e5kNGlbRFDKXb4PS/lqIzxiQE/qa7cU=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfantaTreimeBurebista#20200702_155351.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707642",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "368915660d695145dd40e4c818811387",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "dfc747d1-6c79-4108-aca5-deefecf9b968",
+            "receiptHandle": "AQEBNHjpE/1UW89mFvvcgBZXa7y87CD24aroJ94zgCzXXtAeYVthU7GazRQEh05j1ypUwpPDqzi5uFmmH8yHroSuAL51lJI6gsHJcAWRjdV3QxsdZORdW2XD7Eu0xnrzIdT4FujfB9acjkAqh07kGzvbZszLZfpD1uVMY1UpGLHyPs+dWToZ7TjFFnQIbkwrZ1f4C3b9FrT1L34ZHdZJlX5sXbJlJHg3W1Cdajf80WeHMZp6OnpHwEIXkj93B1QLkl2B4HkB7wWAE73syfr2/5lHph8RYN08KhJ8+zbIox7e5GiF5CkXT3SovsoPGzpaFxHdpexSi6U6oWfp5PX2Ooty+SeJy05T26tASQDQnom2Rx2lAVDkL4PQ/l59PrXPAXoX++y1o2yL0UJpeOV6gcXQ3a6hri/ZtSP6AKpFU80eVlw=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfantaTreimeBurebista#20200702_155400.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707645",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "132eb3d0930b47656aa68d4d71ab5fa8",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "0932cd8c-8867-4fc2-bbc3-bb71be596dc8",
+            "receiptHandle": "AQEBZp+U6RAwtOVUvE4JuFf2g16BY49Dj03TIvPcGnHo0gSG5gvdBDkfd4tCeLRNLdjk1KdSA8upviaJQxbF99UY0Ak1M1efeO+Sw+lZh//NJ6a3l5ZJcvrs9k6jRDvFyPt+SNIw5fYHCoYiX2MtNaauFbGS7GSEMsov3tfMEae3NW/PetSGnMIenXQeVQUt8nNRbZ9dqNnLbTOTZjuRbQaX4zbRYz6TaZI3JyQIS5u2xAw8aqrKypnjbAOiyfyCkbP/IXURAPduOp9bHhfQMSv8Y7TZjNof58WOrzI5IPg2qFUlzdeCp4OJXa2wa1jwfJAp1WkLTWfdjyEGfYQ8TOjH8ub5HaiDADCXDFtNHq6+2JjWba4lvdVdmf18cPJyDTEbi44RHjBZB6sWpVtS8KoCjV9zggRLFLceX4ErTxaZan0=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfantulIoanMosiObor#20190521_120625.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707844",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "5f4dcdadeb2cad5fdbaaf1e0d2c59d6a",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "8a836b0d-6839-4109-8c19-a3a4725abeff",
+            "receiptHandle": "AQEB4hJ3JueNeSq6IigjLFWMrYhvYyNLiVg/yTXhynDhVKb4WeDCuckPRJg7k341JcVkaJaqPhDxdFdXZbhY4m9eEu58hmxZk1nwpWOsjm9WSqifOsLD+daCTRquByMrdfKboXmlIRI+QKjadhmAoAVXwW+6T38QQZmR2VA2GgsPygQrTT6FRFfeAa1glRxVfePTM6khhhjHexb9Ua+u5g2+yaYp9Iq2gP2oPdNQ6UkB+iu3Fl64N4aXZFN69x7BhfYGTLDgD6NJsUuy/dO1gA9TyORIDRfJQv4t+gggQ4jICfK395309GkwWWp2itAeH2//scHW0p7I7ihR6b3GQxYKr3Aj9E8dbaS5YHb9qSTHOogB7+Es23ILWiCbshofxiGDEqnIG3m5DgBd0pNdfTmOjkfhb0CKGcZjajmiyICyFdo=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfVasileCelMareVictoriei#20190111_155236.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640708043",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717047"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "9ef71b65df9432cc4db220938b994cf5",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        },
+        {
+            "messageId": "73a6eba2-d761-4867-b108-89eba7dde6a1",
+            "receiptHandle": "AQEBm3GcxX51kGegWW8FQ6lr1Qlv9744AATT2zW4k8o5p7MfmRrQX4UoTNqirEH9ZZ0a0crD708/ycCwFoyDngbHN7fBKFbsw5OKnMOvw7an368ifnEFnhztLmEZONICvY2IbfKN4v0AyBHQMfVBLmyFOMp7oX8RG4U+zBhNJL8035uJPsOrvFB/j7mGITEg3bk8DWs7SXr3xiFCp/fNJlD+hBVUYL+ckIMhP/JEtCRvHE+O+dcr7kKuVguThzEdoCYhCdHhiBNSE3PVt8RRP1F0AVuhUU4GoQgjUygTLLE6JT99ydmIctuHP0b5sDfM/gjGh5y97flz4Bu1V1778i3SEAO70NSTBzT1hFMhtWPpjQZPhrfEnlcIE4SxD0mWvisix8ZF9hkSa6rFncwsz0XMSe7T1IuRoFqQDOJ+cF0eMbE=",
+            "body": "{\"Records\":[{\"eventID\":\"c4ca4238a0b923820dcc509a6f75849b\",\"eventName\":\"INSERT\",\"eventVersion\":\"1.1\",\"eventSource\":\"aws:dynamodb\",\"awsRegion\":\"us-east-2\",\"dynamodb\":{\"Keys\":{\"PictureS3BucketKeyPK\":{\"S\":\"pics-repository#pics#biserici#Bucuresti#BSfNicolaeVictoriei#20190111_151155.jpg\"},\"TagsTool\":{\"S\":\"aws_rekognition_worker_labels_with_params\"}},\"ApproximateCreationDateTime\":\"Sat Jun 24 08:25:55 UTC 2023\",\"SequenceNumber\":\"4421584500000000017450439091\",\"SizeBytes\":26,\"StreamViewType\":\"KEYS_ONLY\"},\"eventSourceARN\":\"arn:aws:dynamodb:us-east-2:255864408802:table/PicturesTagging/stream/2023-06-24T08:03:07.491\"}]}",
+            "attributes": {
+                "ApproximateReceiveCount": "1",
+                "AWSTraceHeader": "Root=1-64f2e7fa-627219f82a6413381a829a20;Parent=37a77f4f57fa0341;Sampled=0",
+                "SentTimestamp": "1693640707941",
+                "SenderId": "AROATXEVVBLRL7W4OLBD7:ReplayS3Events",
+                "ApproximateFirstReceiveTimestamp": "1693640717048"
+            },
+            "messageAttributes": {},
+            "md5OfBody": "22b1cac0da22613bc9bd5a75d8a7680f",
+            "eventSource": "aws:sqs",
+            "eventSourceARN": "arn:aws:sqs:us-east-2:255864408802:s3-pics-repository-queue",
+            "awsRegion": "us-east-2"
+        }
+    ]
+}

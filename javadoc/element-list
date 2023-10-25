@@ -1,0 +1,3 @@
+com.amazonaws.lambda.mihai.tagpicture.handlers
+com.amazonaws.lambda.mihai.tagpicture.model
+com.amazonaws.lambda.mihai.tagpicture.service
