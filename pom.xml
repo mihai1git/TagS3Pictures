@@ -62,6 +62,15 @@
     </pluginManagement>
   </build>
 
+<!-- project internal repository; similar with Maven; duplicated by Eclipse local repository-->
+  <repositories>
+	  <repository>
+	    <id>in-project</id>
+	    <name>In Project Repo</name>
+	    <url>file:${project.basedir}/libs</url>
+	</repository>
+  </repositories>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
@@ -123,7 +132,8 @@
 	    <version>2.20.109</version>
 	</dependency>
 	
-			<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-serialization -->
+	
+	<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-lambda-java-serialization -->
 	<dependency>
 	    <groupId>com.amazonaws</groupId>
 	    <artifactId>aws-lambda-java-serialization</artifactId>
